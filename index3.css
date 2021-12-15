@@ -1,0 +1,121 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.slide{
+  overflow: hidden;
+}
+.slide section{
+  position: relative;
+  width: 700%;
+  margin: 0;
+  left: 0;
+  animation: move 20s infinite;
+}
+.slide section img{
+  width: 14.2857%;
+  float: left;
+}
+@keyframes move{
+  0%{ left: 0;}
+  14%{ left: 0;}
+  17%{ left: -100%;}
+  30%{ left: -100%;}
+  33%{ left: -200%;}
+  47%{ left: -200%;}
+  50%{ left: -300%;}
+  64%{ left: -300%;}
+  67%{ left: -400%;}
+  80%{ left: -400%;}
+  83%{ left: -500%;}
+  97%{ left: -500%;}
+  100%{ left: -600%;}
+}
+.nav {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background: rgb(51,51,51);
+}
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  float: left;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+.home {
+  background: rgb(102,102,102);
+}
+.right {
+  float: right;
+}
+.photo {
+  background: rgb(231,231,231);
+  display: flex;
+  flex-wrap: wrap;
+}
+.d2 {
+  flex: 30%;
+  padding: 20px;
+}
+.d2 h2 {
+  border-left: 8px solid red;
+  padding: 3px 0 3px 3px;
+}
+.d2 p {
+  padding: 5px 0;
+}
+.d3 {
+  flex: 70%;
+  padding: 20px;
+}
+.d3 h2 {
+  border-left: 8px solid red;
+  padding: 0 3px;
+}
+.fimg {
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.8);
+  margin: 20px 0;
+  width: 100%;
+}
+.fimg2 {
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.8);
+  margin: 20px 0 10px 0;
+  width: 100%;
+}
+h4 {
+  padding: 6px 0;
+}
+#hfor {
+  padding: 20px 0 0 0;
+}
+.i1 {
+  padding: 10px 0;
+  width: 100%;
+  height: 40px;
+}
+.d4 {
+  padding: 45px;
+  text-align: center;
+}
+#shift{
+  margin: 0 12px;
+}
+#shift2{
+  margin-top: 10px;
+}
+.white-color{
+  color: white;
+}
+.round{
+  animation: round 400ms linear 2 reverse;
+}
+.round2{
+  animation: round 400ms linear 2;
+}
+@keyframes round {
+  100%{transform: rotate(360deg);}
+}
